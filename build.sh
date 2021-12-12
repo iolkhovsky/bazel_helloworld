@@ -1,1 +1,2 @@
-bazel build //app:main-app
+#bazel build //app:main-app
+bazel build ... && bazel test ...
