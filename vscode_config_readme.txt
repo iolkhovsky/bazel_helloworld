@@ -1,3 +1,5 @@
+1) Terminal -> Configure Tasks -> Create tasks.json file from template -> Others
+
 {
     "version": "2.0.0",
     "tasks": [
@@ -9,10 +11,8 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": {
-                "base" : "$gcc",
-                "fileLocation" : "absolute"
-            }
         }
     ]
 }
+
+2) Run -> Add Configuration ->  C++ (GDB/LLDB) 
