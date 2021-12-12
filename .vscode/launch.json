@@ -31,6 +31,33 @@
                     "ignoreFailures": true
                 }
             ]
-        }
+        },
+        /*{
+            "name": "GTest debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bazel-bin/app/hello-test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "type": "cppdbg",
+                "MIMode": "gdb",
+                "program": "${workspaceFolder}/bazel-bin/app/hello-test",
+                "cwd": "${workspaceFolder}",
+                "sourceFileMap": {
+                    "/proc/self/cwd/": "${workspaceFolder}",
+                  },
+              },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }*/
     ]
 }
